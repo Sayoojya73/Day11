@@ -1,0 +1,22 @@
+.righttxt{
+    width: 80%;
+    @include mobile{
+        width: 90%;
+        margin-left: -3%;
+    }
+    h2{
+        @include mobile{
+            width: 80%;
+            margin-left: 9%;
+        }
+    }
+    p{
+        width: 100%;
+        text-align: justify;
+        @include mobile{
+            width: 100%;
+            margin-left: 10%;
+        }
+        
+    }
+}

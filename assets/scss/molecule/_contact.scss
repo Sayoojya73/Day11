@@ -1,0 +1,22 @@
+.contact{
+    width: 50%;
+   
+    @include mobile{
+        width: 100%;
+    }
+    
+    .textarea{
+        width: 85%;
+        @include mobile{
+            width: 100%;
+        }
+    }
+}
+.twoinputs{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    @include mobile{
+        width: 100%;
+    }
+}

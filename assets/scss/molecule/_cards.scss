@@ -1,0 +1,17 @@
+.card{
+    border: solid;
+    padding:3% 2% ;
+    border-width: 1px;
+    border-color: rgb(136, 127, 127);
+    margin-right: 2%;
+    position: relative;
+    width: 30.33%;
+    @include mobile{
+         width: 100%;
+         margin-bottom: 10%;
+         
+    }
+    
+
+}
+

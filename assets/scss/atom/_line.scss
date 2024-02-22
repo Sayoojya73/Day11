@@ -1,0 +1,13 @@
+.verticalLine{
+    margin-top: 4%;
+    height: 150px;
+    width: 1px;
+ 
+    background-color: rgb(92, 82, 82);
+    margin-right: 5%;
+    margin-left: 5%;
+    @include mobile{
+       height: 400px;
+         
+     }
+}

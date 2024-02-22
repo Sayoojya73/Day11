@@ -1,0 +1,45 @@
+.footer2{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    @include mobile{
+        flex-direction: column;
+        
+    }
+    .dfirst{
+        margin-top: 3%;
+        width: 50%;
+        justify-content: space-between;
+        @include mobile{
+           width: 30%;
+           margin-bottom: 0%;
+            
+        }
+        ul{
+            list-style-type: none;
+            li{
+                margin-top: 4%;
+            }
+        }
+    }
+    .dsecond{
+        margin-top: 10%;
+        margin-left: 5%;
+        width: 70%;
+        justify-content: space-between;
+        @include mobile{
+            width: 30%;
+            margin-top: 0%;
+           
+            
+             
+         }
+        ul{
+            list-style-type: none;
+            li{
+                margin-top: 4%;
+            }
+        }
+    }
+    
+}

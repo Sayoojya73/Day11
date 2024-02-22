@@ -1,0 +1,22 @@
+.footer1{
+    width: 20%;
+    justify-content: space-between;
+    @include mobile{
+        width: 30%;
+         
+     }
+    ul{
+        color: white;
+        list-style-type: none;
+        li{
+            margin: 3%;
+            img{
+                width: 100px;
+                @include mobile{
+                    width: 50px;
+                     
+                 }
+            }
+        }
+    }
+}

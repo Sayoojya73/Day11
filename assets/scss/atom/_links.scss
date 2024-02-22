@@ -1,0 +1,33 @@
+.links{
+    right: 6%;
+    position: absolute;
+    margin-top: -3%;
+    
+    @include mobile{
+       left: 0%;
+       text-align: start;
+       margin-top: 6%;
+        }
+
+    ul{
+        display: flex;
+        list-style-type: none;
+     @include mobile{
+        flex-direction: column;
+        }
+    }
+    li{
+        margin: 0 3% 0% 0%;
+        @include mobile{
+           border-bottom: solid;
+           border-color: $outline;
+           border-width: 0.2px;
+           width: 100%;
+           font-size: 10px;
+           margin: 0 0%;
+           
+         }
+    }
+}
+
+
